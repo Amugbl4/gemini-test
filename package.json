@@ -2,7 +2,7 @@
   "name": "gemini-test",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".gemini.js",
   "scripts": {
     "test": "npx gemini test",
     "start": "npx npm-run-all --parallel _selenium:start gemini:gui",
