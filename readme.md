@@ -16,6 +16,7 @@
 2. Установить Visual Studio Build Tools командой `npm install --global --production windows-build-tools `
 
 Может возникнуть проблема с модулем `wd`, тогда потребуется его переустановка:
+
 1. `npm uninstall wd`
 2. `npm install -D wd`
 
@@ -57,3 +58,13 @@
 - [Видео: Доклад на OdessaJS](https://www.youtube.com/watch?v=k0RDoEBqeU8)
 - [Видео: Я.Субботник по фронтенду](https://www.youtube.com/watch?v=lfashGLaPpg)
 - [Статья: Как мы тестируем CSS-регрессии с Gemini. Доклад на BEMup в Яндексе](https://habrahabr.ru/company/yandex/blog/238323/)
+
+## Что нужно знать автору тестов?
+- [Основы JavaScript](https://learn.javascript.ru/) - написание тест-кейсов
+- [JSON](https://ru.wikipedia.org/wiki/JSON) - конфигурация gemini, package.json
+- [Yaml](https://ru.wikipedia.org/wiki/YAML) - конфигурация gemini
+- [Основы HTML](https://webref.ru/course/html-tutorial) - понимание того, как строится веб-страница
+- [CSS-селекторы](https://learn.javascript.ru/css-selectors) - для тест-кейсов
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) -
+поможет составить селектор
+- Документацию Gemini 😀
