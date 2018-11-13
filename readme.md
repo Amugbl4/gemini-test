@@ -1,5 +1,7 @@
 # Gemini starter
 
+Пожелания и проблемы писать в [Issue Tracker](https://bitbucket.org/uplabteam/gemini/issues). 
+
 ## Что потребуется установить в систему
 
 1. Java Development Kit (JDK) версии 8.
