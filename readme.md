@@ -4,32 +4,44 @@
 
 1. Java Development Kit (JDK) версии 8.
 Страница загрузки - https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
 2. Python версии 2.7.
 Страница загрузки https://www.python.org/downloads/
+
 3. Node.js версии не ниже 8.
 Страница загрузки - https://nodejs.org/en/download/
+
 4. `npm install -g gemini`
+
 5. `npm install -g selenium-standalone`
 
 ## Пользователям Windows 
+
 1. После установки JDK и Python добавить их пути до директорий содержащих исполняемые файлы в переменную окружения PATH
+
 2. Установить Visual Studio Build Tools командой `npm install --global --production windows-build-tools `
 
 Может возникнуть проблема с модулем `wd`, тогда потребуется его переустановка:
 
 1. `npm uninstall wd`
+
 2. `npm install -D wd`
 
 ## Конфигурация
+
 В файле `.gemini.js` согласно [документации](https://gemini-testing.github.io/).
 
 ## Тест-кейсы
+
 Писать в папке gemini.
 
 ## Тестирование без GUI
+
 1. Запустить сервер selenium `npm run selenium:start`
+
 2. Если у вас нет эталонных изображений, и вы готовы взять за эталон текущую вёрстку - `npm gemini:update` 
 (оригинальная команда `gemini update`) 
+
 3. В новом окне выполнить команду `npm test` (оригинальная команда `gemini test`). Запуск без эталонных изображений
 вернет неуспешный результат тестирования.
 
@@ -47,6 +59,7 @@
 Для остановки выполнить `Ctrl + C`
 
 ## Отчёты
+
 После запуска тестирования создаются html-отчёты в папке `out/gemini-reports`
 
 ## Ссылки
@@ -60,6 +73,7 @@
 - [Статья: Как мы тестируем CSS-регрессии с Gemini. Доклад на BEMup в Яндексе](https://habrahabr.ru/company/yandex/blog/238323/)
 
 ## Что нужно знать автору тестов?
+
 - [Основы JavaScript](https://learn.javascript.ru/) - написание тест-кейсов
 - [JSON](https://ru.wikipedia.org/wiki/JSON) - конфигурация gemini, package.json
 - [Yaml](https://ru.wikipedia.org/wiki/YAML) - конфигурация gemini
