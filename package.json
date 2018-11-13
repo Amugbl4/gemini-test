@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": ".gemini.js",
+  "repository": {
+    "type": "git",
+    "url": "git clone git@bitbucket.org:uplabteam/gemini.git"
+  },
   "scripts": {
     "test": "npx gemini test",
     "start": "npx npm-run-all --parallel _selenium:start gemini:gui",
