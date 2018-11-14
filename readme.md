@@ -30,6 +30,29 @@
 
 2. `npm install -D wd`
 
+*Также проблема с отображением изображений*, пока официально не решена (https://github.com/gemini-testing/html-reporter/issues/27).
+
+Решается след. образом: файл `node_modules/html-reporter/lib/server-utils.js`
+
+Строка 42:
+
+```js
+return urlJoin.apply(null, components.map(osPathToUrl));
+```
+
+Заменить на:
+```js 
+const urlJoin = (...args) =>
+    args
+        .map((value, index) => (index ? _.trim : _.trimEnd)(value, '/'))
+        .join('/');
+        
+const osPathToUrl = (osPath) => osPath.replace(/\\/g, '/');
+
+return urlJoin.apply(null, components.map(osPathToUrl));
+```
+
+
 ## Конфигурация
 
 В файле `.gemini.js` согласно [документации](https://gemini-testing.github.io/).
