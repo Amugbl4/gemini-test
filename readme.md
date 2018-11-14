@@ -19,9 +19,12 @@
 
 ## Пользователям Windows 
 
-1. После установки JDK и Python добавить их пути до директорий содержащих исполняемые файлы в переменную окружения PATH
+1. Установить .NET Framework 2 - https://www.microsoft.com/ru-ru/download/details.aspx?id=1639
 
-2. Установить Visual Studio Build Tools командой `npm install --global --production windows-build-tools `
+2. После установки JDK и Python добавить их пути до директорий содержащих исполняемые файлы в переменную окружения PATH
+(если это не сделано автоматически - при установке может быть опция выбора).
+
+3. Установить Visual Studio Build Tools командой `npm install --global --production windows-build-tools `
 
 Может возникнуть проблема с модулем `wd`, тогда потребуется его переустановка:
 
