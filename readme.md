@@ -13,9 +13,7 @@
 3. Node.js версии не ниже 8.
 Страница загрузки - https://nodejs.org/en/download/
 
-4. `npm install -g gemini`
-
-5. `npm install -g selenium-standalone`
+4. `npm install --global gemini selenium-standalone`
 
 ## Пользователям Windows 
 
@@ -58,7 +56,7 @@
 - установит npm-модули
 - установит драйверы selenium
 - запустит сервер selenium
-- запустит gemini-gui (откроется страница по адресу http://localhost:8000/)
+- откроет веб-страницу по адресу http://localhost:8000/
 
 Последние 2 команды работаю параллельно.
 
