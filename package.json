@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "npx gemini test",
-    "start": "npx npm-run-all --parallel _selenium:start gemini:gui",
+    "start": "npx npm-run-all --parallel selenium:start gemini:gui",
     "prestart": "npm install",
     "preselenium:start": "npx selenium-standalone install",
     "selenium:start": "npx selenium-standalone start",
