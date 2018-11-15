@@ -1,0 +1,52 @@
+rootUrl: http://127.0.0.1:3000
+gridUrl: http://127.0.0.1:4444/wd/hub
+
+browsers:
+  ChromeIPhone5:
+    desiredCapabilities:
+      browserName: chrome
+      chromeOptions:
+        mobileEmulation:
+          deviceName: iPhone 5
+
+  ChromeIPadVertical:
+    desiredCapabilities:
+      browserName: chrome
+      orientation: portrait
+      chromeOptions:
+        mobileEmulation:
+        deviceName: iPad
+
+  ChromeIPadHorizontal:
+    desiredCapabilities:
+      browserName: chrome
+      orientation: landscape
+      chromeOptions:
+        mobileEmulation:
+        deviceName: iPad
+
+  ChromeDesktop:
+    windowSize: 1440x900
+    desiredCapabilities:
+      browserName: chrome
+      resolution: 1440x900
+      acceptSslCerts: true
+
+  ChromeFullHD:
+    windowSize: 1920x1080
+    desiredCapabilities:
+      browserName: chrome
+      resolution: 1920x1080
+      acceptSslCerts: true
+
+system:
+  plugins:
+    html-reporter/gemini:
+      enabled: true
+      path: gemini-reports
+      defaultView: all
+
+    json-reporter:
+      reportFile: ./gemini-reports/report.json
+
+windowSize: 1440x900
