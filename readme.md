@@ -98,7 +98,7 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 - [Видео: Доклад на OdessaJS](https://www.youtube.com/watch?v=k0RDoEBqeU8)
 - [Видео: Я.Субботник по фронтенду](https://www.youtube.com/watch?v=lfashGLaPpg)
 - [Статья: Как мы тестируем CSS-регрессии с Gemini. Доклад на BEMup в Яндексе](https://habrahabr.ru/company/yandex/blog/238323/)
-
+- [Поддерживаемые устройства эмуляции Chrome](https://cs.chromium.org/chromium/src/chrome/test/chromedriver/chrome/mobile_device_list.cc)
 ## Что нужно знать автору тестов?
 
 - [Основы JavaScript](https://learn.javascript.ru/) - написание тест-кейсов
