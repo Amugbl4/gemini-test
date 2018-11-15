@@ -5,25 +5,19 @@ browsers:
   ChromeIPhone5:
     desiredCapabilities:
       browserName: chrome
-      chromeOptions:
-        mobileEmulation:
-          deviceName: iPhone 5
+      deviceName: iPhone 5
 
   ChromeIPadVertical:
     desiredCapabilities:
       browserName: chrome
       orientation: portrait
-      chromeOptions:
-        mobileEmulation:
-        deviceName: iPad
+      deviceName: iPad
 
   ChromeIPadHorizontal:
     desiredCapabilities:
       browserName: chrome
       orientation: landscape
-      chromeOptions:
-        mobileEmulation:
-        deviceName: iPad
+      deviceName: iPad
 
   ChromeDesktop:
     windowSize: 1440x900
