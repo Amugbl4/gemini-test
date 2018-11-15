@@ -2,6 +2,7 @@
 
 Пожелания и проблемы писать в [Issue Tracker](https://bitbucket.org/uplabteam/gemini/issues). 
 
+
 ## Что потребуется установить в систему
 
 1. Java Development Kit (JDK) версии 8.
@@ -15,6 +16,7 @@
 
 4. `npm install --global gemini selenium-standalone`
 
+
 ## Пользователям Windows 
 
 1. Установить .NET Framework 2 - https://www.microsoft.com/ru-ru/download/details.aspx?id=1639
@@ -23,6 +25,7 @@
 (если это не сделано автоматически - при установке может быть опция выбора).
 
 3. Установить Visual Studio Build Tools командой `npm install --global --production windows-build-tools `
+
 
 Может возникнуть проблема с модулем `wd`, тогда потребуется его переустановка:
 
@@ -57,9 +60,11 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 
 В файле `.gemini.js` согласно [документации](https://gemini-testing.github.io/).
 
+
 ## Тест-кейсы
 
 Писать в папке gemini.
+
 
 ## Тестирование без GUI
 
@@ -70,6 +75,7 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 
 3. В новом окне выполнить команду `npm test` (оригинальная команда `gemini test`). Запуск без эталонных изображений
 вернет неуспешный результат тестирования.
+
 
 ## Запуск GUI
 
@@ -85,9 +91,11 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 
 Для остановки выполнить `Ctrl + C`
 
+
 ## Отчёты
 
 После запуска тестирования создаются html-отчёты в папке `out/gemini-reports`
+
 
 ## Ссылки
 
@@ -99,6 +107,8 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 - [Видео: Я.Субботник по фронтенду](https://www.youtube.com/watch?v=lfashGLaPpg)
 - [Статья: Как мы тестируем CSS-регрессии с Gemini. Доклад на BEMup в Яндексе](https://habrahabr.ru/company/yandex/blog/238323/)
 - [Поддерживаемые устройства эмуляции Chrome](https://cs.chromium.org/chromium/src/chrome/test/chromedriver/chrome/mobile_device_list.cc)
+
+
 ## Что нужно знать автору тестов?
 
 - [Основы JavaScript](https://learn.javascript.ru/) - написание тест-кейсов
@@ -106,6 +116,5 @@ return urlJoin.apply(null, components.map(osPathToUrl));
 - [Yaml](https://ru.wikipedia.org/wiki/YAML) - конфигурация gemini
 - [Основы HTML](https://webref.ru/course/html-tutorial) - понимание того, как строится веб-страница
 - [CSS-селекторы](https://learn.javascript.ru/css-selectors) - для тест-кейсов
-- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) -
-поможет составить селектор
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools/) - поможет составить селектор
 - Документацию Gemini 😀
