@@ -1,0 +1,57 @@
+{
+  "body plain.ChromeIPadHorizontal": {
+    "fullName": "body plain",
+    "suiteFullName": "body",
+    "browserId": "ChromeIPadHorizontal",
+    "file": "gemini\\loco.js",
+    "referencePath": null,
+    "url": "/sinara.frontend/dist/locomotive.html",
+    "status": "error",
+    "errorReason": "NoRefImageError: Can not find reference image at C:\\Myprojects\\gemini-test\\gemini\\gemini\\screens\\body\\plain\\ChromeIPadHorizontal.png.\nRun `gemini update` command to capture all reference images.\n    at Object.exports.fromPlainObject.e [as fromPlainObject] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\errors\\utils.js:10:16)\n    at Promise.fromCallback.catch.err (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\state-processor\\state-processor.js:41:53)\n    at tryCatcher (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:690:18)\n    at _drainQueueStep (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)",
+    "duration": 15248
+  },
+  "body plain.ChromeDesktop": {
+    "fullName": "body plain",
+    "suiteFullName": "body",
+    "browserId": "ChromeDesktop",
+    "file": "gemini\\loco.js",
+    "referencePath": null,
+    "url": "/sinara.frontend/dist/locomotive.html",
+    "status": "error",
+    "errorReason": "NoRefImageError: Can not find reference image at C:\\Myprojects\\gemini-test\\gemini\\gemini\\screens\\body\\plain\\ChromeDesktop.png.\nRun `gemini update` command to capture all reference images.\n    at Object.exports.fromPlainObject.e [as fromPlainObject] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\errors\\utils.js:10:16)\n    at Promise.fromCallback.catch.err (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\state-processor\\state-processor.js:41:53)\n    at tryCatcher (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:690:18)\n    at _drainQueueStep (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)",
+    "duration": 13181
+  },
+  "body plain.ChromeIPhone5": {
+    "fullName": "body plain",
+    "suiteFullName": "body",
+    "browserId": "ChromeIPhone5",
+    "file": "gemini\\loco.js",
+    "referencePath": null,
+    "url": "/sinara.frontend/dist/locomotive.html",
+    "status": "error",
+    "errorReason": "NoRefImageError: Can not find reference image at C:\\Myprojects\\gemini-test\\gemini\\gemini\\screens\\body\\plain\\ChromeIPhone5.png.\nRun `gemini update` command to capture all reference images.\n    at Object.exports.fromPlainObject.e [as fromPlainObject] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\errors\\utils.js:10:16)\n    at Promise.fromCallback.catch.err (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\state-processor\\state-processor.js:41:53)\n    at tryCatcher (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:690:18)\n    at _drainQueueStep (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)",
+    "duration": 14747
+  },
+  "body plain.ChromeIPadVertical": {
+    "fullName": "body plain",
+    "suiteFullName": "body",
+    "browserId": "ChromeIPadVertical",
+    "file": "gemini\\loco.js",
+    "referencePath": null,
+    "url": "/sinara.frontend/dist/locomotive.html",
+    "status": "error",
+    "errorReason": "NoRefImageError: Can not find reference image at C:\\Myprojects\\gemini-test\\gemini\\gemini\\screens\\body\\plain\\ChromeIPadVertical.png.\nRun `gemini update` command to capture all reference images.\n    at Object.exports.fromPlainObject.e [as fromPlainObject] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\errors\\utils.js:10:16)\n    at Promise.fromCallback.catch.err (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\state-processor\\state-processor.js:41:53)\n    at tryCatcher (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:690:18)\n    at _drainQueueStep (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)",
+    "duration": 15465
+  },
+  "body plain.ChromeFullHD": {
+    "fullName": "body plain",
+    "suiteFullName": "body",
+    "browserId": "ChromeFullHD",
+    "file": "gemini\\loco.js",
+    "referencePath": null,
+    "url": "/sinara.frontend/dist/locomotive.html",
+    "status": "error",
+    "errorReason": "NoRefImageError: Can not find reference image at C:\\Myprojects\\gemini-test\\gemini\\gemini\\screens\\body\\plain\\ChromeFullHD.png.\nRun `gemini update` command to capture all reference images.\n    at Object.exports.fromPlainObject.e [as fromPlainObject] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\errors\\utils.js:10:16)\n    at Promise.fromCallback.catch.err (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\gemini\\lib\\state-processor\\state-processor.js:41:53)\n    at tryCatcher (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\util.js:16:23)\n    at Promise._settlePromiseFromHandler (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:512:31)\n    at Promise._settlePromise (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:569:18)\n    at Promise._settlePromise0 (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:614:10)\n    at Promise._settlePromises (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\promise.js:690:18)\n    at _drainQueueStep (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:138:12)\n    at _drainQueue (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:131:9)\n    at Async._drainQueues (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:147:5)\n    at Immediate.Async.drainQueues [as _onImmediate] (C:\\Myprojects\\gemini-test\\gemini\\node_modules\\bluebird\\js\\release\\async.js:17:14)\n    at runCallback (timers.js:705:18)\n    at tryOnImmediate (timers.js:676:5)\n    at processImmediate (timers.js:658:5)",
+    "duration": 17930
+  }
+}

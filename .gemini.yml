@@ -1,4 +1,4 @@
-rootUrl: http://127.0.0.1:3000
+rootUrl: http://html.uplab.ru
 gridUrl: http://127.0.0.1:4444/wd/hub
 
 browsers:
@@ -28,6 +28,11 @@ browsers:
     desiredCapabilities:
       browserName: chrome
       deviceName: iPhone 5
+      deviceMetrics:  
+        width: 320,
+        height: 568,
+        pixelRatio: 2
+
 
   ChromeIPadVertical:
     desiredCapabilities:
@@ -66,4 +71,5 @@ system:
       enabled: true
       path: reports/report.json
 
-windowSize: 1440x900
+windowSize: 2560x1440
+compositeImage: true
