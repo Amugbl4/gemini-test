@@ -60,6 +60,13 @@ browsers:
       resolution: 1920x1080
       acceptSslCerts: true
 
+  IE:
+    windowSize: 1920x1080
+    desiredCapabilities:
+      browserName: 'internet explorer'
+      resolution: 1920x1080
+      acceptSSlCerts: true
+      
 system:
   plugins:
     html-reporter/gemini:
@@ -71,5 +78,4 @@ system:
       enabled: true
       path: reports/report.json
 
-windowSize: 2560x1440
 compositeImage: true
