@@ -24,40 +24,33 @@ browsers:
 #            height: 768,
 #            pixelRatio: 2
 
-  ChromeIPhone5:
-    desiredCapabilities:
-      browserName: chrome
-      deviceName: iPhone 5
-      deviceMetrics:  
-        width: 320,
-        height: 568,
-        pixelRatio: 2
-
-
-  ChromeIPadVertical:
-    desiredCapabilities:
-      browserName: chrome
-      orientation: portrait
-      deviceName: iPad
-
-  ChromeIPadHorizontal:
-    desiredCapabilities:
-      browserName: chrome
-      orientation: landscape
-      deviceName: iPad
-
   ChromeDesktop:
     windowSize: 1440x900
     desiredCapabilities:
       browserName: chrome
-      resolution: 1440x900
+      #resolution: 1440x900
       acceptSslCerts: true
 
-  ChromeFullHD:
-    windowSize: 1920x1080
+  IE:
+    windowSize: 1440x900
     desiredCapabilities:
-      browserName: chrome
-      resolution: 1920x1080
+      browserName: internet explorer
+      version: '11'
+      os: 'Windows'
+      os_version: '10'
+      #resolution: 1440x900
+      acceptSslCerts: true
+      #ignoreProtectedModeSettings: true
+      #ignoreZoomSetting: true
+      #requireWindowFocus: true
+      #ensureCleanSession: true
+
+  Firefox:
+     windowSize: 1440x900
+     desiredCapabilities: 
+      browserName: firefox
+      version: ''
+      #resolution: 1440x900
       acceptSslCerts: true
 
 system:
@@ -70,6 +63,5 @@ system:
     json-reporter/gemini:
       enabled: true
       path: reports/report.json
-
-windowSize: 2560x1440
+ 
 compositeImage: true

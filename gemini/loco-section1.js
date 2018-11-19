@@ -10,8 +10,4 @@ gemini.suite('section1', function (suite) {
                     actions.click('.btn.btn--outline-gray.mt-default-1.js-tab__btn')
                     actions.wait(2000);
         })
-        .setCaptureElements('.section.section--equal-v.pb-0')
-        .capture('clickclack', function (actions) {
-            actions.wait(2000);
-        })
     });

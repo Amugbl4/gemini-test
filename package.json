@@ -11,8 +11,8 @@
     "test": "npx gemini test",
     "start": "npx npm-run-all --parallel selenium:start gemini:gui",
     "prestart": "npm install",
-    "preselenium:start": "selenium-standalone install",
-    "selenium:start": "selenium-standalone start",
+    "preselenium:start": "selenium-standalone install --version=2.47.0 --drivers.ie.version=2.53.1",
+    "selenium:start": "selenium-standalone start --version=2.47.0 --drivers.ie.version=2.53.1",
     "gemini": "gemini test",
     "gemini:gui": "gemini gui",
     "gemini:update": "gemini update"
